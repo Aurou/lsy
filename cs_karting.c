@@ -382,7 +382,7 @@ void print_track(struct track_piece *track) {
             struct driver *current_driver = track->drivers;
             int pos = 1;
             while (current_driver != NULL) {
-                printf("         %d. %s\n", pos, current_driver->name);
+                printf("        %d. %s\n", pos, current_driver->name);
                 pos++;
                 current_driver = current_driver->next;
             }
