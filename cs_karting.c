@@ -696,7 +696,6 @@ void command_loop(struct series *series) {
                     current_track = current_track->next;
                 }
                 append_race(series, new_race);
-                printf("Race: '%s' added!\n", new_name);
                 break;
             }
 
