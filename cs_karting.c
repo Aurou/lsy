@@ -430,6 +430,7 @@ void print_drivers(struct race *race) {
         if (rank == 1) {
             printf("            Empty Driver List!\n\n");
         }
+        printf("\n");
     }
 }
 
