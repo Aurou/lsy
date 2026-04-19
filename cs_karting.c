@@ -306,7 +306,7 @@ void add_track_piece(struct series *series) {
 
     struct track_piece *new_track = create_track(type);
     append_track(race, new_track);
-    printf("Track Piece: '%s' inserted!\n", type_to_string(type));
+    printf("Track Piece: '%s' added!\n", type_to_string(type));
 }
 
 // Add a driver to an existing race
@@ -621,7 +621,7 @@ void command_loop(struct series *series) {
 
                     struct track_piece *new_track = create_track(type);
                     insert_track(race, new_track, n);
-                    printf("Track Piece: '%s' inserted!\n", type_to_string(type));
+                    printf("Track Piece: '%s' added!\n", type_to_string(type));
                 } else if (sub_cmd == 'd') {
                     char race_name[MAX_SIZE], driver_name[MAX_SIZE];
                     scan_name(race_name);
