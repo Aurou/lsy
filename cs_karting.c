@@ -365,7 +365,7 @@ void print_series(struct series *series) {
         print_drivers(current_race);
         current_race = current_race->next;
     }
-    printf("\n")
+    printf("\n");
 }
 
 ///////////////////////////////////////////////////////////////////////////////
