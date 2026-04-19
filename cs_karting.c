@@ -400,7 +400,7 @@ void print_drivers(struct race *race) {
     if (race->status == NOT_STARTED || race->status == COMPLETED) {
         struct driver *current = race->drivers;
         if (current == NULL) {
-            printf("            Empty Driver List!\n");
+            printf("            Empty Driver List!\n\n");
             return;
         }
         int count = 1;
@@ -428,7 +428,7 @@ void print_drivers(struct race *race) {
             }
         }
         if (rank == 1) {
-            printf("            Empty Driver List!\n");
+            printf("            Empty Driver List!\n\n");
         }
     }
 }
