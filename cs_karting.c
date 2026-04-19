@@ -386,12 +386,6 @@ void print_series(struct series *series) {
 // Modified Print Functions (Stage 2.4 compliant)
 ///////////////////////////////////////////////////////////////////////////////
 // Print track with driver positions
-struct driver_rank {
-    char name[MAX_SIZE];
-    int rank;
-    struct driver_rank *next;
-};
-
 struct driver_rank *calculate_driver_ranks(struct race *race) {
     struct driver_rank *ranks = NULL;
     int rank = 1;
