@@ -809,7 +809,6 @@ void command_loop(struct series *series) {
 
                 struct driver *moved_driver = remove_driver_from_list(&current_race->drivers, driver_name);
                 append_driver(&new_race->drivers, moved_driver);
-                printf("Driver: '%s' moved to race '%s'!\n", driver_name, new_race_name);
                 break;
             }
 
