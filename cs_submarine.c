@@ -1,16 +1,8 @@
 // cs_submarine.c
-// Learning implementation generated with ChatGPT on 24 October 2026.
-// Original starter code supplied by UNSW COMP1511.
-//
 // Description: CS Submarine, Stages 1.1-3.5.
-// Uses independent entity/current layers and complete turn snapshots.
-// Specification: COMP1511 26T3 Assignment 1; Stage 4 is not implemented.
 
 // Provided Libraries
 #include <stdio.h>
-
-// Add your own #include statements below this line
-
 
 // Provided constants
 #define ROWS 10
